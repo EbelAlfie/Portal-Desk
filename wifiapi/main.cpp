@@ -1,12 +1,12 @@
 #include <filesystem>
 #include <iostream>
 #include "./wifip2p/wifip2pmanager.cpp"
+#include "./filemanager/datasource.cpp"
 
 namespace fs = std::filesystem;
 
+//buka websocket
 int main()
 {
-    std::string path = "C:\\";
-    for (const auto & entry : fs::directory_iterator(path))
-        std::cout << entry.path() << std::endl;
+    
 }
